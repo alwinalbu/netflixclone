@@ -1,0 +1,519 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+
+#backimg {
+    background: url(1st\ img.jpg);
+    background-size: cover;
+    height: 600px;
+    border-bottom: 8px solid #222;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.4);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent 40%, rgba(0, 0, 0, 0.7));
+    height: 100.1%;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 10.4375rem;
+    height: 2.8125rem;
+    margin-right: auto;
+}
+
+#language {
+    margin-right: 1.375rem;
+    border-radius: 5px;
+    background: transparent;
+    padding: 0.5rem 2rem;
+
+}
+
+.signin {
+    background-color: #e50914;
+    font-size: 1rem;
+    padding: 0.2rem 18px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.main {
+    text-align: center;
+    padding: 75px 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.main h1 {
+    margin-top: 70px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.main p {
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+h3 {
+   text-align: center;
+    font-size: 1.36rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#email {
+
+    width: 350px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.getstarted {
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: 1 px solid white;
+}
+
+.Tv {
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 70px 45px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.description {
+    width: 50%;
+}
+
+.tvclip {
+    width: 45%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tvclip img {
+    width: 100%;
+    z-index: 10;
+    max-width: 600px;
+    position: relative;
+}
+
+#tvvideo {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87%;
+    height: 55%;
+
+}
+
+.description h2 {
+    font-size: 3.125rem;
+}
+
+.description p {
+    font-size: 1.625rem;
+    margin-top: 20px;
+
+}
+
+.phonesection {
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 20px;
+}
+
+.phonesection .container {
+    justify-content: space-between;
+}
+
+.mobile img {
+    max-width: 400px;
+}
+
+.devices{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top: 50px;
+}
+
+#decvicesclip{
+height: 100%;
+position: absolute;
+left: 50%;
+max-width: 61%;
+max-height: 37%;
+top:34%;
+transform: translate(-50%,-50%);
+}
+
+
+.kids{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top:50px;
+    min-height: 500px;
+}
+.kids img{
+    max-width: 45%;
+}
+.kids .description{
+    width: 55%;
+}
+
+.qst{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 50px;
+}
+.sm-container{
+margin: 0 auto;
+max-width: 925px;
+
+}
+.sm-container ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+li button{
+    font-size: 1.625rem;
+    background-color: #303030;
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+li button img{
+    float:right;
+}
+li div{
+    width: 100%;
+    text-align: left;
+    background-color: #303030;
+    margin: auto;
+    padding: 20px;
+}
+li div p:first-child{
+    margin-bottom: 30px;
+
+}
+.sm-container h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding:10px;
+}
+#emaillast{
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    background-color: aliceblue;
+
+}
+.getstartedlast{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: 1 px solid white;
+}
+footer{
+    background-color: black;
+     padding: 50px 0;
+}
+.footercontents{
+    width: 60%;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    margin: auto;
+   min-height:220px;
+}
+footer a{
+    color: grey;
+    text-decoration: none;
+}
+ footer ul{
+    list-style: none;
+ }
+.content p{
+    margin-bottom: 50px;
+}
+.content li{
+    float:left;
+    width:25%;
+    margin-bottom:10px;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.footercontents p{
+    color: grey;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :1350px) {
+    .main h1 {
+        font-size: 2.125rem;
+    }
+
+    .main p {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .main h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #email {
+        width: 280px;
+        height: 47px;
+    }
+
+    .getstarted {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media(max-width:1050px) {
+    .main h1 {
+        font-size: 1.7rem;
+    }
+
+    .main p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .main h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 6.25rem;
+        height: 1.875rem;
+    }
+
+    #email {
+        width: 350px;
+        height: 40px;
+        background-color: aliceblue;
+    }
+
+    .getstarted {
+        width: 100px;
+        height: 40px;
+    }
+
+    .tvclip, .description{
+        width: 100%;
+    }
+
+    .kids .description{
+        width: 100%;
+    }
+
+    .description h2{
+        font-size:2.5rem;
+        font-family: 900;
+    }
+
+    .description p{
+        font-size:20px;
+        font-weight: 400;
+    
+    }
+    #emaillast{
+        width:50%;
+        display: flex;
+        align-items: center;
+    }
+    .getstartedlast{
+     width:6.0rem
+    }
+    .content li{
+        width: 33.4%;
+    }
+    
+}
+
+@media(max-width:580px) {
+    .main {
+        padding-bottom: 0;
+    }
+
+    .main h1 {
+        margin-top: 10px;
+        font-size: 1.9rem;
+    }
+
+    #language {
+        margin-right: 1.375rem;
+        border-radius: 5px;
+        background: transparent;
+        width: 50px;
+
+    }
+
+    .main p {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    .main h3 {
+        
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .logo {
+        width: 6.25rem;
+        height: 1.875rem;
+    }
+
+    #email {
+        
+        width: 300px;
+        height: 40px;
+        background-color: aliceblue;
+
+    }
+    .login {
+        display: block;
+    
+    }
+
+    .getstarted {
+        margin-top: 10px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .backimg {
+        height: 400px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .phonesection .container,.kids .container{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .kids img{
+        max-width:100%;
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 1.625rem;
+    }
+    .description p{
+        font-size: 1.125rem;
+    }
+    .Tv, .phonesection, .devices, .kids{
+        padding: 50px 0;
+    }
+    .sm-container h3{
+        font-size:1rem;
+        width: 70%;
+        margin-left: 50px;
+    }
+    #emaillast{
+        border-radius: 5px;
+        width: 300px;
+        height: 40px;
+        background-color: aliceblue;
+        margin-left: 50px;
+
+    }
+    .getstartedlast{
+        margin-left:140px;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #e50914;
+        border: 1 px solid white;
+    }
+    .qst{
+        padding:0;
+    }
+    .qst h1{
+        padding-top: 30px;
+        padding-bottom:10px;
+        font-size:1.5rem;
+    }
+    .question div, .question button{
+        font-size: 1.3rem;
+        width: 95%;
+        padding: 20px 20px;
+    }
+
+    .content li{
+        width:50%;
+    }
+    
+}
